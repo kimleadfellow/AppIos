@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E4219F057FE94E9BA68C3BD /* libPods-MobileApp-MobileAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EADA31F2F9642CD13418F83 /* libPods-MobileApp-MobileAppUITests.a */; };
+		3806E66EC1B847150052694E /* libPods-MobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 240D1C29241984FFE889F2CB /* libPods-MobileAppTests.a */; };
+		3FBFF2503A183317D90544A0 /* libPods-MobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75AA955767A6A741034CA3 /* libPods-MobileApp.a */; };
+		9822E1B227E9C73D00DAACA6 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9822E1B127E9C73D00DAACA6 /* CryptoSwift */; };
+		9822E1B627E9FD9F00DAACA6 /* BlowfishCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9822E1B527E9FD9F00DAACA6 /* BlowfishCrypt.swift */; };
 		9872181C27D62CCC00574290 /* LeadfellowAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872181B27D62CCC00574290 /* LeadfellowAccount.swift */; };
 		98EF594C279D90690013E672 /* MobileAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EF594B279D90690013E672 /* MobileAppApp.swift */; };
 		98EF594E279D90690013E672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EF594D279D90690013E672 /* ContentView.swift */; };
@@ -41,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240D1C29241984FFE889F2CB /* libPods-MobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		319375665E1AC0D2BD1EE5F8 /* Pods-MobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-MobileAppTests/Pods-MobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4313352A0EE8A83B4E3D70E5 /* Pods-MobileApp-MobileAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileApp-MobileAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobileApp-MobileAppUITests/Pods-MobileApp-MobileAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55CF1D7D1BAC841F2F7680E4 /* Pods-MobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileApp.release.xcconfig"; path = "Target Support Files/Pods-MobileApp/Pods-MobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		7EADA31F2F9642CD13418F83 /* libPods-MobileApp-MobileAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileApp-MobileAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		938382E1C38D9968B452B479 /* Pods-MobileApp-MobileAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileApp-MobileAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MobileApp-MobileAppUITests/Pods-MobileApp-MobileAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94EF5B57E1D5FD35AE6C23FE /* Pods-MobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileApp.debug.xcconfig"; path = "Target Support Files/Pods-MobileApp/Pods-MobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9822E1B527E9FD9F00DAACA6 /* BlowfishCrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowfishCrypt.swift; sourceTree = "<group>"; };
 		9872181B27D62CCC00574290 /* LeadfellowAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadfellowAccount.swift; sourceTree = "<group>"; };
 		98EF5948279D90690013E672 /* MobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EF594B279D90690013E672 /* MobileAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppApp.swift; sourceTree = "<group>"; };
@@ -57,6 +70,8 @@
 		98EF5979279D94490013E672 /* ForgotPasswordPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPage.swift; sourceTree = "<group>"; };
 		98EF597D279D98150013E672 /* AddProvidersPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProvidersPage.swift; sourceTree = "<group>"; };
 		98EF597F279DAD9E0013E672 /* LeadInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadInfoPage.swift; sourceTree = "<group>"; };
+		AAFADF4E70A0AA1BCD428C81 /* Pods-MobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MobileAppTests/Pods-MobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED75AA955767A6A741034CA3 /* libPods-MobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EF5983279DADE30013E672 /* iPhoneNumberField in Frameworks */,
+				9822E1B227E9C73D00DAACA6 /* CryptoSwift in Frameworks */,
+				3FBFF2503A183317D90544A0 /* libPods-MobileApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3806E66EC1B847150052694E /* libPods-MobileAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +97,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E4219F057FE94E9BA68C3BD /* libPods-MobileApp-MobileAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A416232276E56E970A439E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED75AA955767A6A741034CA3 /* libPods-MobileApp.a */,
+				7EADA31F2F9642CD13418F83 /* libPods-MobileApp-MobileAppUITests.a */,
+				240D1C29241984FFE889F2CB /* libPods-MobileAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		98EF593F279D90690013E672 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +121,8 @@
 				98EF595B279D906E0013E672 /* MobileAppTests */,
 				98EF5965279D906E0013E672 /* MobileAppUITests */,
 				98EF5949279D90690013E672 /* Products */,
+				F164FFEBE50714063F3DA3A4 /* Pods */,
+				3A416232276E56E970A439E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +149,7 @@
 				98EF597D279D98150013E672 /* AddProvidersPage.swift */,
 				98EF597F279DAD9E0013E672 /* LeadInfoPage.swift */,
 				9872181B27D62CCC00574290 /* LeadfellowAccount.swift */,
+				9822E1B527E9FD9F00DAACA6 /* BlowfishCrypt.swift */,
 			);
 			path = MobileApp;
 			sourceTree = "<group>";
@@ -147,6 +179,19 @@
 			path = MobileAppUITests;
 			sourceTree = "<group>";
 		};
+		F164FFEBE50714063F3DA3A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94EF5B57E1D5FD35AE6C23FE /* Pods-MobileApp.debug.xcconfig */,
+				55CF1D7D1BAC841F2F7680E4 /* Pods-MobileApp.release.xcconfig */,
+				4313352A0EE8A83B4E3D70E5 /* Pods-MobileApp-MobileAppUITests.debug.xcconfig */,
+				938382E1C38D9968B452B479 /* Pods-MobileApp-MobileAppUITests.release.xcconfig */,
+				AAFADF4E70A0AA1BCD428C81 /* Pods-MobileAppTests.debug.xcconfig */,
+				319375665E1AC0D2BD1EE5F8 /* Pods-MobileAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98EF596C279D906E0013E672 /* Build configuration list for PBXNativeTarget "MobileApp" */;
 			buildPhases = (
+				A353B3255AA9A5EE8FD3663B /* [CP] Check Pods Manifest.lock */,
 				98EF5944279D90690013E672 /* Sources */,
 				98EF5945279D90690013E672 /* Frameworks */,
 				98EF5946279D90690013E672 /* Resources */,
@@ -165,6 +211,7 @@
 			name = MobileApp;
 			packageProductDependencies = (
 				98EF5982279DADE30013E672 /* iPhoneNumberField */,
+				9822E1B127E9C73D00DAACA6 /* CryptoSwift */,
 			);
 			productName = MobileApp;
 			productReference = 98EF5948279D90690013E672 /* MobileApp.app */;
@@ -174,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98EF596F279D906E0013E672 /* Build configuration list for PBXNativeTarget "MobileAppTests" */;
 			buildPhases = (
+				304348B0130107596204D1D9 /* [CP] Check Pods Manifest.lock */,
 				98EF5954279D906E0013E672 /* Sources */,
 				98EF5955279D906E0013E672 /* Frameworks */,
 				98EF5956279D906E0013E672 /* Resources */,
@@ -192,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98EF5972279D906E0013E672 /* Build configuration list for PBXNativeTarget "MobileAppUITests" */;
 			buildPhases = (
+				D42B70A85F4A0108BEDB131E /* [CP] Check Pods Manifest.lock */,
 				98EF595E279D906E0013E672 /* Sources */,
 				98EF595F279D906E0013E672 /* Frameworks */,
 				98EF5960279D906E0013E672 /* Resources */,
@@ -240,6 +289,7 @@
 			mainGroup = 98EF593F279D90690013E672;
 			packageReferences = (
 				98EF5981279DADE30013E672 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+				9822E1B027E9C73D00DAACA6 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 			);
 			productRefGroup = 98EF5949279D90690013E672 /* Products */;
 			projectDirPath = "";
@@ -278,6 +328,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		304348B0130107596204D1D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A353B3255AA9A5EE8FD3663B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42B70A85F4A0108BEDB131E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileApp-MobileAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98EF5944279D90690013E672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,6 +407,7 @@
 				98EF594E279D90690013E672 /* ContentView.swift in Sources */,
 				98EF594C279D90690013E672 /* MobileAppApp.swift in Sources */,
 				98EF5980279DAD9E0013E672 /* LeadInfoPage.swift in Sources */,
+				9822E1B627E9FD9F00DAACA6 /* BlowfishCrypt.swift in Sources */,
 				98EF5978279D930A0013E672 /* SignUpPage.swift in Sources */,
 				9872181C27D62CCC00574290 /* LeadfellowAccount.swift in Sources */,
 				98EF5976279D90D90013E672 /* SignInPage.swift in Sources */,
@@ -445,6 +565,7 @@
 		};
 		98EF596D279D906E0013E672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94EF5B57E1D5FD35AE6C23FE /* Pods-MobileApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +574,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobileApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,6 +595,7 @@
 		};
 		98EF596E279D906E0013E672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CF1D7D1BAC841F2F7680E4 /* Pods-MobileApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -481,6 +604,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MobileApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -501,6 +625,7 @@
 		};
 		98EF5970279D906E0013E672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFADF4E70A0AA1BCD428C81 /* Pods-MobileAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +645,7 @@
 		};
 		98EF5971279D906E0013E672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319375665E1AC0D2BD1EE5F8 /* Pods-MobileAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +665,7 @@
 		};
 		98EF5973279D906E0013E672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4313352A0EE8A83B4E3D70E5 /* Pods-MobileApp-MobileAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +683,7 @@
 		};
 		98EF5974279D906E0013E672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938382E1C38D9968B452B479 /* Pods-MobileApp-MobileAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +741,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		9822E1B027E9C73D00DAACA6 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		98EF5981279DADE30013E672 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField.git";
@@ -624,6 +760,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		9822E1B127E9C73D00DAACA6 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9822E1B027E9C73D00DAACA6 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
 		98EF5982279DADE30013E672 /* iPhoneNumberField */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 98EF5981279DADE30013E672 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;

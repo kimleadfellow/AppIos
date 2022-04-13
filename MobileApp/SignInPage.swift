@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import BCryptSwift
 
 struct SignInText : View {
     var body: some View {
@@ -68,6 +68,13 @@ struct PasswordSecureField : View {
 var LoginAccount = LeadfellowAccount("", "")
 
 
+func encrypt(password: String) -> String {
+    let salt = try BCryptSwift.generateSalt()
+    let hashed = try BCryptSwift.hashPassword(password, withSalt: salt) ?? "error"
+    return hashed
+    
+    
+}
 
 struct SignInPage : View {
     
@@ -94,6 +101,8 @@ struct SignInPage : View {
     @Binding var newUserCreated: Bool
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
+    
     
     var body: some View {
         NavigationView{
@@ -137,6 +146,9 @@ struct SignInPage : View {
                             .onTapGesture {
                                 self.presentationMode.wrappedValue.dismiss()
                                 self.action=2
+                                print(password)
+                                print(encrypt(password: password))
+                                
                             }
                     }.disabled(false) //LISADA API ET KONTROLLIDA SISSELOGIMINE
                     

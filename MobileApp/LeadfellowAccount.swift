@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import CryptoSwift
 class LeadfellowAccount{
     var username: String
     var password: String
@@ -15,4 +15,8 @@ class LeadfellowAccount{
         self.username = username
         self.password = password
     }
+    
+    
+    
+    
 }

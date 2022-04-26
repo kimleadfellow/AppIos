@@ -12,9 +12,10 @@ struct MobileAppApp: App {
     @State var signInSuccess = false
     @State var signupYes = false
     @State var newUserCreated = false
+    var network = Network()
     var body: some Scene {
         WindowGroup {
-            SignInPage(signupYes: $signupYes, signInSuccess: $signInSuccess, newUserCreated: $newUserCreated)
+            SignInPage(signupYes: $signupYes, signInSuccess: $signInSuccess, newUserCreated: $newUserCreated).environmentObject(network)
         }
     }
 }

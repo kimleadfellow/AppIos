@@ -73,11 +73,9 @@ func encrypt(password: String) -> String {
     let hashed = try BCryptSwift.hashPassword(password, withSalt: salt) ?? "error"
     return hashed
     
-    
 }
-
 struct SignInPage : View {
-    
+    @EnvironmentObject var network: Network
     @State var firstName: String = ""
     @State var lastName: String = ""
     @State var email: String = ""
@@ -146,8 +144,8 @@ struct SignInPage : View {
                             .onTapGesture {
                                 self.presentationMode.wrappedValue.dismiss()
                                 self.action=2
-                                print(password)
                                 print(encrypt(password: password))
+                                network.getLogin(email: username, password_hash: encrypt(password:password))
                                 
                             }
                     }.disabled(false) //LISADA API ET KONTROLLIDA SISSELOGIMINE

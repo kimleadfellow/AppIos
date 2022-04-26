@@ -38,6 +38,27 @@ struct CompanyTextField : View {
     }
 }
 
+struct CommissionTextField : View {
+    
+    @Binding var commission: String
+    
+    @Binding var editingMode: Bool
+    
+    var body: some View {
+        return TextField("Commission", text: $commission, onEditingChanged: {edit in
+            if edit == true
+            {self.editingMode = true}
+            else
+            {self.editingMode = false}
+        })
+            .padding()
+        .background(Color.white)
+            .cornerRadius(5.0)
+        .padding(.horizontal, 5.0)
+        
+    }
+}
+
 struct AdditionalInfoTextField : View {
     
     @Binding var info: String
@@ -66,6 +87,7 @@ struct LeadInfoPage : View {
     @State var lastName: String = ""
     @State var email: String = ""
     @State var company: String = ""
+    @State var commission: String = ""
     @State var info: String = ""
     @State var number = ""
     @State var editingMode: Bool = false
@@ -86,6 +108,7 @@ struct LeadInfoPage : View {
                         LastNameTextField(lastName: $lastName, editingMode: $editingMode)
                         
                     }
+                    VStack{
                     EmailTextField(email: $email, editingMode: $editingMode)
                     iPhoneNumberField("Phone", text: $number).flagHidden(true)
                         .flagSelectable(true)
@@ -94,8 +117,9 @@ struct LeadInfoPage : View {
                         .cornerRadius(5.0)
                     .padding(.horizontal, 5.0)
                     CompanyTextField(company: $company, editingMode: $editingMode)
+                    CommissionTextField(commission: $commission, editingMode: $editingMode)
                     AdditionalInfoTextField(info: $info, editingMode: $editingMode)
-                        
+                    }
                     Spacer()
                     NavigationLink(destination: SignInPage( signupYes: $signupYes, signInSuccess: $signInSuccess, newUserCreated: $newUserCreated)){
                         Text("Send lead").font(.headline)

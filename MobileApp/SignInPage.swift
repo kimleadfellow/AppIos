@@ -36,7 +36,7 @@ struct UsernameTextField : View {
     @Binding var editingMode: Bool
     
     var body: some View {
-        return TextField("Username", text: $username, onEditingChanged: {edit in
+        return TextField("E-mail", text: $username, onEditingChanged: {edit in
             if edit == true
             {self.editingMode = true}
             else
